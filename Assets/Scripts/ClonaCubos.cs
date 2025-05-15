@@ -17,4 +17,9 @@ public class ClonaCubos : MonoBehaviour
     {
         
     }
+
+    public void ClonarCubo()
+    {
+        Instantiate(cuboPrefab);
+    }
 }
